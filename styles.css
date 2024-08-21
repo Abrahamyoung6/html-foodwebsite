@@ -1,0 +1,220 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #000;
+    color: #ffffff;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./1000_F_235108710_18kQ3cdUHbFoxGGBWJW2M3c8H6G15Yux.jpg');
+    background-size: cover;
+}
+
+header {
+    background-color: #383737;
+    color: #ffffff;
+    padding: 1rem;
+    background-image: url('./240_F_295910762_L4WyfstjFh3LTlF9K4gdnjXDAKQ2YJ3j.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+header h1 {
+    color: darkorange;
+    margin: 0;
+}
+
+.nav-item a{
+    color: #ffffff;
+}
+
+.men h2{
+    color: #f1f5f1;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#cart h2{
+    color: #f0f3f0;
+}
+
+.food-item p{
+    color: #ffffff;
+}
+
+#contact h2{
+    color: aqua;
+}
+
+main{
+    display:flex;
+    gap: 20px;
+    margin-bottom: -4%;
+
+    .food-item{
+        background-color: #222;
+        padding: 1rem;
+        margin:-5px;
+        border-radius: 30px;
+        transition: background-color 0.3s;
+        position: relative;
+        width: 320px;
+        background-image: url('./1000_F_302529420_N3ptzETZvq7fxYjYcDMsQuUvSASzUh6h.jpg');
+        background-size: cover;
+    }
+
+    .food-item img{
+        width: max-content;
+        height: 145px;
+        display:inline-flex;
+        position: absolute;
+        left: 165px;
+        bottom: 18px;
+        border-radius: 15%;
+    }
+
+}
+
+section h3 {
+    color: gold;
+}
+
+#menu h3 {
+    color: brown;
+}
+
+#total-cost {
+    color: gold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #ffffffbe;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+main {
+    padding:1rem;
+}
+
+section{
+    margin-bottom:20px;
+}
+
+
+.food-item .price {
+    font-weight: bold;
+    color: gold;
+    margin-top: 0.5rem;
+}
+
+#total-cost {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.food-item:hover {
+    background-color: #353434;
+}
+
+button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #25bd17;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#cart {
+    background-color: #111;
+    padding: 1rem;
+    border-radius: 20px;
+    width: 500px;
+    margin-top:30px;
+    margin-left: 10px;
+    background-image: url(./1000_F_506956493_WgmNDSz0YExC5VhSwedXSSfQH8DTG9fe.jpg);
+    background-size: cover;
+}
+
+#cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart ul li {
+    background-color: #222;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cart ul li button {
+    background-color: red;
+    color: white;
+    border: none;
+    width: auto;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#cart ul li button:hover {
+    background-color: darkred;
+}
+
+#cart ul{
+    color: #f0f3f0;
+}
+.carousel-item img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-left: 50px;
+    background-size: cover;
+}        
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    height: 5px;
+    top: 100%;
+}
+
+
+
+@media (min-width:768) and (max-width:1024px){
+    main{
+        width: auto;
+    }
